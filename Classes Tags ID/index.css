@@ -1,0 +1,20 @@
+/* Tags */
+body{
+    text-align: center;
+}
+
+ /* ID */
+#loguin{
+    background-color: bisque;
+    color: black;
+}
+
+#registre {
+    background-color: aqua;    
+    color: black;
+}
+
+.copy{
+    font-size: 8px;
+
+}

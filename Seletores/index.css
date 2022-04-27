@@ -1,0 +1,44 @@
+*{
+    color :black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0%;
+}
+
+/* #primeiro{
+    border: 1px solid green;
+    margin: 30px;
+}
+
+.segundo{
+    border: 3px solid black;
+    padding: 15px;
+} */
+
+
+.navigation nav span{
+    color: indigo;
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav span:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: blueviolet;
+    transition: 500ms;
+
+}
+
+.segundo > p{
+color: pink;
+}
+
+
+#primeiro,
+.segundo,
+.navigation {
+border: 5px solid black;
+padding: 15px;
+margin: 5px;
+
+}
