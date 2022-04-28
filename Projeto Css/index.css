@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #a09038;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: url(./346763\ \(1\).png) no-repeat center center fixed;
+    background-size: cover;
+}
+
