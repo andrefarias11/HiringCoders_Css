@@ -7,9 +7,11 @@
 
 ul{
     list-style: none;
-    font-size: 30px;
-    font-style: italic;
-    color: black;
+    font-size: 20px;
+}
+
+ul li a{
+    color: #fff;
 }
 
 
@@ -22,28 +24,84 @@ body{
     background-size: cover;
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* border-bottom: 1px solid #ffff; */
+    /* box-shadow: 1px 1px 10px 1px #ffff ; */
+    border-bottom: 15px ridge #ffff;
+}
+
+header ul {
+    display: flex;
+    padding: 5px;
+}
+
+header ul li{
+    padding: 5px;
+}
+
+header ul li a{
+    transition: 300ms;
+}
+
+header ul li a:hover{
+    color: rgb(50, 50, 247);
+    text-decoration: underline;
+}
+
+
 .container{
     text-align: center;
 }
 
 .container .name h1{
-    color: aqua;
+    color: #fff;
     font-size: 60px;
 }
 
 .container .name h5{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #about p{
-    max-width:30em;
+    max-width: 600px;
     margin: 0 auto;
 }
 
-/* .form{
+.form{
     width: 40%;
-} */
+    margin: 0 auto;
+    padding: 25px;
+}
 
 .form input{
     width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form button{
+    width: 15%;
+    padding: 5px 10px;
+    background: linear-gradient(to right, rgb(50, 50, 247) 50%, rgb(88, 88, 248) 50%) ;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+    transition: all 400ms ease-out;
+    border-radius: 0px 5px 5px 0px ;
+    margin-left: -5px;
+
+}
+
+.form button:hover{
+    background-position:left bottom;
+    color: #fff;
+    
 }
