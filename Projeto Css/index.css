@@ -64,7 +64,27 @@ header ul li a:hover{
 
 .container .name h5{
     font-size: 25px;
+    
 }
+
+#arrow{
+    font-size: 20px;
+    cursor:pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+/* piscar */
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.rotate {
+    
+}
+
+
 
 #about p{
     max-width: 600px;
