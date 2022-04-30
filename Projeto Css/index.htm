@@ -28,13 +28,10 @@
                 <h1>André Farias</h1>
                 <h5>Front-end develop</h5>
             </div>
-            
-
-            <div id="arrow" >
-                <i class="fa-solid fa-arrow-down"></i>
+            <div onclick="displayAbout()" id="arrow" >
+                <i id="animation" class="fa-solid fa-arrow-down"></i>
             </div>
-
-            <div id ="about">
+            <div style="display: none;" id ="about">
                 <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Nam minima quod incidunt similique, temporibus adipisci ipsam? 
@@ -53,6 +50,14 @@
             </div>
         </section>
     </main>
+    <script>
 
+        function displayAbout(){
+            var arrow = document.getElementById('animation')
+            arrow.classList.toggle('rotate')
+            var display = document.getElementById('about')
+            display.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
